@@ -1,0 +1,33 @@
+@import "../../global.scss";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: darkorange;
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.productImage {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.productInfo {
+    width: 80%;
+}
+
+.productName {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 5px 5px 0px;
+}
+
+.productPrice, .productDescription {
+    margin: 0px;   
+}
